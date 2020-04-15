@@ -1,0 +1,10 @@
+.sljcontainer{
+   display: block;
+   width: 1000px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>web text 1</title>
+    <meta content="text/html;charset=utf-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="imageWrapper">
+        <img
+          class="img"
+          src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1582628373133&di=8d921f002440bdbffdeff5e7e38c2a03&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn20116%2F600%2Fw940h1260%2F20190429%2Fc7ab-hwfpcxm9497537.jpg"
+        />
+      </div>
+      <div class="info">
+        <ul>
+          <li>张三</li>
+          <li>理工男</li>
+          <li>杭州师范大学</li>
+          <li>23453233@qq.com</li>
+          <li>13812345678</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <style type="text/css">
+    ul {
+      list-style: none;
+      font-weight: bold;
+    }
+
+    li {
+      margin: 10px 0px;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .info {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+    }
+
+    .container {
+      width: 60%;
+      min-height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      border: 1px solid #eee;
+      box-shadow: 0px 0px 5px 1px #cdcdcd;
+      border-radius: 5px;
+    }
+
+    .imageWrapper {
+      width: 30%;
+      border-radius: 10px;
+      margin-right: 10%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</html>
